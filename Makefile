@@ -8,7 +8,7 @@ publications: pubs.bib apa-cv.csl lua-refs.lua
 		--to=markdown-citations \
 		-o publications.qmd
 	@Rscript highlight-author.R \
-		"Godoy, L. da C." "publications.qmd"
+		"Hernandez, K." "publications.qmd"
 
 clean:
 	rm -rf publications* *~
