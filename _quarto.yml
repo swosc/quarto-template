@@ -1,8 +1,16 @@
 project:
   type: website
+  output-dir: docs
+  render:
+    - "*.qmd"
 
 website:
   title: "How do you wanna call your website?"
+  search: true
+  cookie-consent: false
+  twitter-card: true
+  open-graph: true
+  site-url: https://<yourwebsite>.github.io
   navbar:
     right:
       - blog.qmd
@@ -10,6 +18,9 @@ website:
         href: https://github.com/
       - icon: twitter
         href: https://twitter.com
+  page-footer: 
+    left: "You can write somethig here too."
+
 format:
   html:
     theme: cosmo
