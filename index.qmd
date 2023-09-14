@@ -15,4 +15,4 @@ about:
 
 ---
 
-Fill your info
+<Write somethign about yourself or your website>
